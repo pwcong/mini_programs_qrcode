@@ -1,0 +1,17 @@
+/**index.wxss**/
+.row{
+  width: 100%;
+  
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input{
+  flex: 1;
+  margin-right: 20rpx;
+  border-bottom: 1px solid #e5e5e5;
+  
+}

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="row">
+    <canvas style="width: 200px; height: 200px;" canvas-id="qrcode"/>
+  </view>
+
+  <view class="row" style="margin-top: 80rpx;">
+    <input placeholder="please input text" bindinput="handleTextInputChange"/>
+    <button type="primary" size="mini" bindtap="handleGenerateButtonClick">Generate</button>
+  
+  </view>
+</view>
