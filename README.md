@@ -23,3 +23,7 @@ qrcode.makeCode('Hello World!')
 
 }
 ```
+
+## Thanks
+
+* [qrcodejs](https://github.com/davidshimjs/qrcodejs)
